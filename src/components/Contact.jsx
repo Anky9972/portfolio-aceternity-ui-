@@ -58,7 +58,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-start justify-center bg-black text-white px-6 sm:px-12 lg:px-28">
+    <div className="min-h-screen flex flex-col items-start lg:justify-center bg-black text-white px-6 sm:px-12 lg:px-28">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -105,7 +105,7 @@ const ContactForm = () => {
 
         <div className="text-lg sm:text-xl w-full flex flex-col sm:flex-row gap-6 sm:gap-10">
           <span className="w-full sm:w-1/4 font-semibold text-4xl sm:text-5xl lg:text-6xl">
-            I'm from{" "}
+            I&apos;m from{" "}
           </span>
           <input
             type="text"

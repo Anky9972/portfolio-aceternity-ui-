@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -8,12 +7,6 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div>
-      {/* <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-        </Routes>
-      </Router> */}
       <Navbar />
       <div id="hero">
         <Hero />
