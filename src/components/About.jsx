@@ -56,7 +56,9 @@ const About = () => {
         </motion.div>
 
         <div className="hidden lg:flex w-1/2  justify-center items-center">
-          <div className="w-56 h-56 rounded-full border"></div>
+          <div className="w-56 h-56 rounded-full border overflow-hidden">
+            <img src="https://res.cloudinary.com/dj0eulqd8/image/upload/v1732890959/WhatsApp_Image_2024-11-29_at_8.00.45_PM_dy8hod.jpg" alt="profile_pic" />
+          </div>
         </div>
       </div>
 
